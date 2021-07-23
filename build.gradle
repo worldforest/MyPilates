@@ -24,6 +24,12 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+//    lombok 사용
+    compile('org.projectlombok:lombok')
+//    JPA 사용(1. 스프링 부트 버전에 맟줘 자동으로 라이브러리 버전 관리/2. 메모리에서 실행되어 재시작 마다 초기화=테스트에 사용)
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2')
+//    
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
