@@ -1,0 +1,4 @@
+com/exercise/mypilates/web/dto/HelloResponseDtoTest.java
+ com.exercise.mypilates.web.dto.HelloResponseDtoTest
+com/exercise/mypilates/web/HelloControllerTest.java
+ com.exercise.mypilates.web.HelloControllerTest
